@@ -2,7 +2,12 @@
 
 LOL
 
-## what does it do
+## Techologies Used
+* ColdFusion 2021 (and included Apache Derby db)
+* Bootstrap 5 (via CDN)
+* jQuery (via CDN)
+
+## What Does It Do
 ```
 controller file 
     builds template name and optional js file from url.action
@@ -10,14 +15,14 @@ controller file
 this page
     loads header, view and footer
 ```
-## what doesn't it do
+## What Doesn't It Do
 ```
 anything not mentioned above
 dependency injection
 handle different headers and footers
 contain a much-needed Application.cfm file
 ```
-## what's next
+## What's Next?
 ```
 add in bootstrap so that it doesn't look horrible
 that's about it (this was more of a quick thought than anything)
