@@ -59,6 +59,9 @@ component {
             case "home":
                 page_title = "Hello, World!";
             break; 
+            case "jquery":
+                page_title = "jQuery";
+            break; 
             default: 
                 for(item in listToArray(arguments.template_name, "_")){ 
                     word = 

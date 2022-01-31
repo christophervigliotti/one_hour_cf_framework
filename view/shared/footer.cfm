@@ -2,8 +2,8 @@
     <cfoutput>
       JS File Exists? #request.shared.header.filename# exists? #FileExists(ExpandPath(request.shared.header.filename))#
       <br />
-      view...
-      <cfdump var="#request.view#">
+      request scope...
+      <cfdump var="#request#">
     </cfoutput>
   </body>
 </html>

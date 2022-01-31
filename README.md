@@ -2,6 +2,9 @@
 
 LOL
 
+## Bugs
+* view isn't loading (d'oh)
+
 ## Techologies Used
 * ColdFusion 2021 (and included Apache Derby db)
 * Bootstrap 5 (via CDN)

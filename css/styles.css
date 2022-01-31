@@ -1,0 +1,12 @@
+.actions{
+    white-space:nowrap;
+}
+.italics{
+    font-style: italic;
+    text-decoration: none;
+}
+
+.strike{
+    font-style: normal;
+    text-decoration: line-through;
+} 
