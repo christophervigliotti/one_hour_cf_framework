@@ -10,9 +10,7 @@
           <a class="nav-link #((url.action EQ 'home')?'active':'')#" href="?action=home">Home</a>
           <a class="nav-link #((url.action EQ 'books')?'active':'')#" href="?action=books">Books</a>
           <a class="nav-link #((url.action EQ 'authors')?'active':'')#" href="?action=authors">Authors</a>
-          <!--
-          <a class="nav-link #((url.action EQ 'database_test')?'active':'')#" href="?action=database_test">Database Test</a>
-          -->
+          <a class="nav-link #((url.action EQ 'authors')?'active':'')#" href="?action=test">Interview Test</a>
           <a class="nav-link #((url.action EQ 'jquery')?'active':'')#" href="?action=jquery">jQuery</a>
         </cfoutput>
       </div>

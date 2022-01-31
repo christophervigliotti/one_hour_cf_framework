@@ -19,6 +19,14 @@ component {
         return this;
     }
 
+    remote string function doForm(
+        required string first_name,
+        required string last_name
+    ){
+        var return_string = arguments.first_name & ' ' & arguments.last_name & ' has been received.';
+        return return_string;
+    }
+
     public struct function getView(
         required struct urlScope
     ){
@@ -61,6 +69,9 @@ component {
             break; 
             case "jquery":
                 page_title = "jQuery";
+            break; 
+            case "test":
+                page_title = "Interview Test";
             break; 
             default: 
                 for(item in listToArray(arguments.template_name, "_")){ 
