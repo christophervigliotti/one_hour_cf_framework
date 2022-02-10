@@ -17,6 +17,10 @@ controller file
     builds the page title from url.action (with optional override)
 this page
     loads header, view and footer
+ajax_test.html
+    created to test a few things
+    1. does a static html page process an ajax request if you are browsing it locally (vs running it in a web server). the answer is no it doesnt'
+    2. can i return anything from ajax (this readme file for example).  the answer is yes.
 ```
 ## What Doesn't It Do
 ```
