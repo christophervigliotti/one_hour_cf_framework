@@ -27,7 +27,7 @@ component {
         return return_string;
     }
 
-    public struct function getView(
+    public struct function getCurrentViewDetails(
         required struct urlScope
     ){
         var view = {

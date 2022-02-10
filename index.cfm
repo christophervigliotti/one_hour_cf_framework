@@ -16,7 +16,7 @@
     param url.action = 'home';
 
     // view
-    request.view = request.controller.getView(url);
+    request.view = request.controller.getCurrentViewDetails(url);
 
     include 'view/shared/header.cfm';
     include request.view.template_path;
