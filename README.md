@@ -3,7 +3,7 @@
 LOL
 
 ## Bugs
-* view isn't loading (d'oh)
+* FIXED view isn't loading (d'oh)
 
 ## Techologies Used
 * ColdFusion 2021 (and included Apache Derby db)
@@ -27,7 +27,7 @@ contain a much-needed Application.cfm file
 ```
 ## What's Next?
 ```
-add in bootstrap so that it doesn't look horrible
+DONE add in bootstrap so that it doesn't look horrible
 that's about it (this was more of a quick thought than anything)
 getView 
     should be handled as handleAction, 
