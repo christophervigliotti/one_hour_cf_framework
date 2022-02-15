@@ -22,4 +22,14 @@ Test Part B
       <label for="last_name" class="form-label">Last Name</label>
       <input type="text" class="form-control" id="last_name" aria-describedby="emailHelp">
     </div>
-    <input type="button" id="submit_button" class="btn btn-primary" value="check form fields">
+    <input 
+      type="button" 
+      id="submit_button" 
+      class="btn btn-primary" 
+      value="check form fields" 
+      <!--- 
+      if doLoadListener is set to false in test.js you will have to un-comment this line to trigger validation
+      onclick="validateAndSubmit()" 
+      ---> 
+      onclick="validateAndSubmit()" 
+    />
