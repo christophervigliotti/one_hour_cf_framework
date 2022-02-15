@@ -28,7 +28,7 @@ Test Part B
       class="btn btn-primary" 
       value="check form fields" 
       <!--- 
-      if doLoadListener is set to false in test.js you will have to un-comment this line to trigger validation
+      if doLoadListener is set to false in test.js you will need this >> onclick="validateAndSubmit()" 
       onclick="validateAndSubmit()" 
       ---> 
       onclick="validateAndSubmit()" 

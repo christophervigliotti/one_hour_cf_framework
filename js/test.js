@@ -3,7 +3,7 @@ $(function() { // jquery ready
     var doLoadListener = false;
 
     /* 
-    for this variation to work you will have to (1) set doLoadListener to true and (2) add onclick="validateAndSubmit()" (use type 'button' and not type 'submit' to prevent the form from submitting)
+    for this variation to work you will have to (1) set doLoadListener to true and (2) remove onclick="validateAndSubmit()" (use type 'button' and not type 'submit' to prevent the form from submitting)
     <input type="button" id="submit_button" class="btn btn-primary" value="check form fields" ></input>
     */
     if(doLoadListener){
