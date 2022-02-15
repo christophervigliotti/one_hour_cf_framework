@@ -16,11 +16,11 @@ Test Part B
 --->
     <div class="mb-3">
       <label for="first_name" class="form-label">First Name</label>
-      <input type="text" class="form-control" id="first_name" aria-describedby="emailHelp">
+      <input type="text" class="form-control" id="first_name">
     </div>
     <div class="mb-3">
       <label for="last_name" class="form-label">Last Name</label>
-      <input type="text" class="form-control" id="last_name" aria-describedby="emailHelp">
+      <input type="text" class="form-control" id="last_name">
     </div>
     <input 
       type="button" 
